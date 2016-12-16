@@ -1,1 +1,1 @@
-ffmpeg -i {videoname}.mp4 -vf mpdecimate=max=0:hi=4000:lo=3999:frac=1 -ss 0 -vsync 0 {outputfolder}\image%03d.bmp
+ffmpeg -i {videoname}.mp4 -vf mpdecimate=max=0:hi=5000:lo=4999:frac=1 -ss 0 -vsync 0 {outputfolder}\image%03d.bmp
